@@ -1,3 +1,4 @@
+
 # app.py — Alina Bot | GPT-5 + Notlar + Vade Kontrol
 
 import os, json, base64, logging, pytz, datetime
@@ -25,7 +26,7 @@ BOT_TOKEN       = os.getenv("TELEGRAM_TOKEN", "").strip()
 SA_JSON_B64     = os.getenv("GOOGLE_SA_JSON_B64", "").strip()
 GSHEET_NOTES_ID = os.getenv("GSHEET_NOTES_ID", "").strip()
 GSHEET_VADE_ID  = os.getenv("GSHEET_VADE_ID", "").strip()
-CHAT_ID         = int(os.getenv("CHAT_ID", "0"))
+CHAT_ID         = int(os.getenv("CHAT_ID", "8396073279"))
 TZ_NAME         = os.getenv("TZ", "Europe/Istanbul")
 local_tz        = pytz.timezone(TZ_NAME)
 
