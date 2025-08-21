@@ -1,0 +1,6 @@
+python-telegram-bot[job-queue]==21.6
+openai>=1.40,<2
+dateparser
+pytz
+gspread
+google-auth
